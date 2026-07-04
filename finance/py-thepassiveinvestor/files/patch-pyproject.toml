@@ -1,0 +1,18 @@
+--- pyproject.toml.orig	2026-07-02 20:52:20 UTC
++++ pyproject.toml
+@@ -61,7 +61,7 @@ ipykernel = "^6.25.2"
+ ipykernel = "^6.25.2"
+ 
+ [build-system]
+-requires = ["setuptools<65.5.0", "poetry-core>=1.0.0"]
++requires = ["setuptools", "poetry-core>=1.0.0"]
+ build-backend = "poetry.core.masonry.api"
+ 
+ [tool.ruff]
+@@ -94,4 +94,4 @@ filterwarnings = [
+ [tool.pytest.ini_options]
+ filterwarnings = [
+     "ignore::pytest.PytestAssertRewriteWarning:",
+-]
+\ No newline at end of file
++]
